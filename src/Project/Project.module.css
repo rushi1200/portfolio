@@ -1,0 +1,146 @@
+.body{
+     background-color: none;
+     width: 100%;
+     height: 100vh;
+     text-align: center;
+     color: white;
+} 
+
+
+   .heading{
+        padding-top: 3%;
+       border: 1px solid none;
+       padding: 1%;
+       
+   }
+   .heading p{
+       font-size: 16px;
+       border: 1px solid none;
+       margin-bottom: 5px;
+   }
+   .heading h3{
+    z-index: 1;
+       margin-top: 1%;
+       font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-size: 45px;
+       background-color: none;
+       border:1px solid none;
+       background-color: none;
+       padding: 0px;
+   }
+   
+   .container{
+       border: 1px solid none;
+       display: flex;
+       justify-content: space-around;
+       margin: 3% 12%;
+       height: 60vh;
+   }
+   .pro{
+       border: 2px solid white;
+       margin: 1%;
+       width: 28%;
+       border-radius: 10%;
+       background-color: none;
+       display: flex;
+       flex-direction: column;
+       overflow: hidden;
+       justify-content: space-around;
+       align-items: center;
+   }
+   
+   .imgbox{
+       border: 3px solid none;
+       width: 75%;
+       height: 57%;
+       border-radius: 10%;
+       overflow: hidden;
+
+   }
+   img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .btncon{
+       border: 1px solid none;
+       margin-top: -10%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+       width: 80%;
+       height: 28%;
+   }
+   .btncon h3{
+       border: 1px solid none;
+       margin-top: 0px;
+       font-size: 20px;
+   }
+   .button{
+       border: 2px solid none;
+       width: 95%;
+       display: flex;
+       justify-content: space-between;
+       padding: 1%;
+       height: 50%;
+       margin-bottom: 0px;
+       
+       
+   }
+   .button a{
+       border-radius: 50px;
+       font-size: 13px;
+       width: 48%;
+       color:white;
+       background-color: red;
+       font-weight: bolder;
+       font-family: 'Arial Narrow', Arial, sans-serif;
+       transition: All 0.2s ease-in;
+       border: 2px solid white;
+      overflow: hidden;
+       
+   }
+  
+   .button a button{
+    position: relative;
+    padding: -5px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+   } 
+
+   .button a button:hover{
+    background-color: white;
+    color: black;
+   }
+
+ @media (max-width:500px)  {
+    .body{
+        height: 150vh;
+        border: 3px solid none;
+        margin: 0;
+    }
+    .container{
+        border: 2px solid none;
+        display: grid;
+        height: 85%;
+        object-fit:cover;
+         
+         
+         
+    }
+    .pro{
+        border: 2px solid paleturquoise;
+        width: 95%;
+        margin: 1rem;
+    }
+    .imgbox{
+         
+    }
+   }
