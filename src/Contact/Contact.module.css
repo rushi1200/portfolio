@@ -31,6 +31,14 @@ header div{
     width: 70%;
     background-color: black;
     margin-left: 15%;
+    color: white;
+    font-size: 17px;
+}
+.you{
+    margin-top: 4%;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(143, 236, 100);
 }
 .container{
     display: flex;
@@ -39,12 +47,17 @@ header div{
     width: 700px;
     padding: 30px;
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 50px; 
     margin-left: 28%;
     color: white;
 }
 .box{
     border: 1px solid NONE;
+}
+.box a:hover {
+    text-decoration: underline;
+    font-size:21px;
+    color:aqua
 }
 .box a{
     font-size: 20px;
@@ -56,6 +69,7 @@ header div{
     margin: 10px;
     font-size: 25px;
 }
+
 
 
 @media (max-width:500px) {

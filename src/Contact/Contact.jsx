@@ -11,7 +11,7 @@ function Contact(){
             <header>
                 <h1>Get in Touch</h1>
                 <p className={styles.ilove}>I'm eager to join a collaborative team where I can contribute my skills and learn from others. If you have an exciting project, let's discuss how I can be valuable asset. I'm Actively seeking a new opportunity to apply my skills and continue growing.
-                    <div>I'd love to hear from you!......</div></p>
+                 </p>
         </header>
 
         <main className={styles.container}>
@@ -28,6 +28,7 @@ function Contact(){
                     <span href="">7083209522</span>
                 </div>
         </main>
+        <div className={styles.you}>I'd love to hear from you!......🙂</div>
     </div>
 
     <div className={styles.arrow}></div> 
