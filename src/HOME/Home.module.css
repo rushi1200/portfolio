@@ -63,21 +63,22 @@ b{
     padding:7px 10px;
 }
 .navItems li a{
-    font-size: 15px;
+    font-size: 16px;
     color: whitesmoke;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: capitalize;
     padding:16px;
     height: 100%;
+    font-weight: 400;
     transition: all 0s ease-in .5s;
 }
 
 .navItems li:hover {
     color:white;
-     border-radius: 5px;
-    background:rgb(129, 84, 129)
-    
+    background:rgb(135, 74, 141);
+     padding:16px;
+      
 }
 
 
