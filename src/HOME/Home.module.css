@@ -6,7 +6,7 @@
     font-family: 'poppins', sans-serif;
 
 }
-
+ 
 body{
      background-color: none;
 } 
@@ -20,7 +20,9 @@ body{
     color: white;
 }
 nav{
+    border:none purple 3px;
     display: flex;
+    position: fixed;
     width: 100%;
     justify-content: space-around;
     height: 90px;
@@ -33,13 +35,13 @@ nav{
 
 .logo{
     display: flex;
-    font-size: 31px;
+    font-size: 33px;
     font-weight: 800;
     color: white;
     letter-spacing: 3px;
     cursor: pointer;
     text-transform: capitalize;
-    margin-top: 30px;
+    margin-top: 45px;
 
 }
 
@@ -71,7 +73,7 @@ b{
     padding:16px;
     height: 100%;
     font-weight: 400;
-    transition: all 0s ease-in .5s;
+    transition: all 0.2s ease-in .5s;
 }
 
 .navItems li:hover {
@@ -111,11 +113,28 @@ b{
     height: 50%;
     justify-self: center;
     align-items: center;
-    padding: 0 10%;
+    padding: 5% 8%;
     overflow: hidden;
     color: white;
     border: 1px solid none;
+    
 
+}
+.cv{
+    border:2px solid balck;
+    color: black;
+    background: yellow;
+    padding: 1em;
+    margin-top: 50px;    
+    position: absolute;
+    font-weight: 600;
+    margin-left: 80px;
+    text-decoration: none;
+}
+.cv:hover{
+    border: 2px solid rgb(249, 249, 57);
+    background:none;
+    color:white;
 }
 /* .wrapper::before{
     position: absolute;
@@ -199,7 +218,7 @@ p{
     border: 1px solid none;
     display: block;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.1em;
     color: rgb(203, 192, 207);
     background-color: none;
     text-wrap:wrap;
@@ -251,7 +270,7 @@ p{
     .navItems{
         display: none;
     }
-
+    
     .wrapper{
         border: 1px solid none;
         display: flex;
@@ -268,13 +287,57 @@ p{
         font-size: 18px;;
     }
     
-    .imgbox img{
-        border: 3px solid none;
-        background: #7f00ff;
-        margin-top: -12%;
-        width: 70%;
-        height: 70%;
-        margin-left: -35%;
+.topline{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    columns: #3d535f;
+    margin-top: 10%;
+    
+}
+.topline::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: #7f00ff;
+}
+.topline::before{
+    position: absolute;
+    left: 400px;
+    content: '';
+    height: 145px;
+    width: 145px;
+    bottom: 10px;
+    background: linear-gradient(45deg,#7f00ff,pink);
+    border-radius: 50%;
+     animation: object2 6s linear infinite;
+}
+@keyframes object2{
+    50%{
+        
     }
+    
+}
 
+.imgbox{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: 2px solid none;
+    left: 15%;
+    top: 14%;
+    bottom: 2%;
+}
+.imgbox img{
+     border: 3px solid none;
+     position: absolute;
+     margin-top: 33%;
+     width: 75%;
+     height: 75%;
+}
+
+    
  }
