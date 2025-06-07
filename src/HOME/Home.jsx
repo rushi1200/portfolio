@@ -30,11 +30,7 @@ function Home(){
                 <h1>I'm <span className={styles.multiText}>Web Developer</span></h1>
                 <p> Always curious and excited to learn, especially when it comes to technology. I enjoy diving into new challenges and finding smart ways to improve systems and solve problems. </p>
 
-                {/* <div className={styles.links}>
-                    <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href="#"><FontAwesomeIcon icon={faGithubSquare} /></a>
-                    <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-                </div> */}
+               
 
                   <a className={styles.cv} href="#">Download CV</a>
                   
