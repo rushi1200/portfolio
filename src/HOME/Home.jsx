@@ -2,7 +2,7 @@
 import styles from '../HOME/Home.module.css';
 import self from "./img.png";
  
-
+import resume from './Rushikesh_CV.pdf';
 function Home(){   
  
     
@@ -12,7 +12,7 @@ function Home(){
         <nav >
             <div className={styles.logo}>Rushikesh Takaras<b>.</b></div>
                 <ul className={styles.navItems}>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#R">Home</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#skill">skills</a></li> 
                     <li><a href="#project">Project</a></li>
@@ -31,7 +31,7 @@ function Home(){
 
                
 
-                  <a className={styles.cv} href="#">Download CV</a>
+                     <a className={styles.cv} href={resume} >Download CV</a>
                   
             </div>
 
