@@ -2,7 +2,6 @@
 import styles from '../HOME/Home.module.css';
 import self from "./img.png";
  
-// import { faInstagram } from '@fortawesome/free-solid-svg-icons'
 
 function Home(){   
  
